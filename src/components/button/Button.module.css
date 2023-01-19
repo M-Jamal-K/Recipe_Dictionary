@@ -1,0 +1,29 @@
+.btnDiv {
+  background: linear-gradient(
+    108.2deg,
+    #4460fa 0%,
+    #907bff 30.21%,
+    #ec9ab6 57.86%,
+    #febc6d 100%
+  );
+  border-radius: 10px;
+  padding: 2px;
+  width: fit-content;
+}
+
+.button {
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #030a17;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #212535;
+}
+.button:disabled {
+  cursor: not-allowed;
+}

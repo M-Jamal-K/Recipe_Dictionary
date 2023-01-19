@@ -1,0 +1,43 @@
+.recipe {
+  height: 350px;
+  width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+.flx {
+  display: flex;
+  flex-direction: column;
+}
+.title,
+.method {
+  padding: 10px;
+}
+.time {
+  padding: 0 10px 10px 10px;
+  font-style: italic;
+  opacity: 0.8;
+}
+.btn {
+  align-self: center;
+  margin: 10px;
+}
+.ingredientList {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+.h3 {
+  padding-top: 10px;
+}
+.method {
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 800px) {
+  .recipe {
+    width: inherit;
+    margin: 50px 10px;
+  }
+}

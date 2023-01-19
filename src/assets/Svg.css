@@ -1,0 +1,55 @@
+#Layer_1 {
+  stroke: #838383;
+}
+#Shape {
+  stroke-dasharray: 152.66845703125;
+  stroke-dashoffset: 152.66845703125;
+}
+#Shape_1_ {
+  stroke-dasharray: 22.74517059326172;
+  stroke-dashoffset: 22.74517059326172;
+}
+
+#Shape_2_ {
+  stroke-dasharray: 22.745174407958984;
+  stroke-dashoffset: 22.745174407958984;
+}
+#Shape_6_ {
+  stroke-dasharray: 35.70000076293945;
+  stroke-dashoffset: 35.70000076293945;
+}
+
+#Shape,
+#Shape_1_,
+#Shape_2_,
+#Shape_6_ {
+  animation: Icon 4s ease;
+  animation-fill-mode: forwards;
+}
+@keyframes Icon {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Flames */
+#Shape_3_,
+#Shape_4_,
+#Shape_5_ {
+  stroke-dasharray: 13.00731372833252;
+  stroke-dashoffset: 13.00731372833252;
+}
+#Shape_3_ {
+  animation: Icon 3s linear infinite;
+}
+#Shape_4_ {
+  animation: Icon 2s linear infinite;
+}
+#Shape_5_ {
+  animation: Icon 3.5s linear infinite;
+}
+@keyframes Icon {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

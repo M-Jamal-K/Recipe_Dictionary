@@ -1,0 +1,37 @@
+.recipeList {
+  max-width: 1200px;
+}
+.listCard {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: fit-content;
+}
+.title,
+.time,
+.method {
+  margin-left: 20px 10px;
+}
+.title,
+.method {
+  padding: 10px;
+}
+.time {
+  padding: 0 10px 10px 10px;
+  font-style: italic;
+  opacity: 0.8;
+}
+.btn {
+  align-self: center;
+  margin: 10px;
+}
+@media screen and (min-width: 800px) {
+  .listCard {
+    width: 380px;
+  }
+  .listCard:hover {
+    transform: rotate(1deg);
+    box-shadow: 0px 0px 8px 2px rgba(153, 153, 153, 0.75);
+    transition: 0.2s ease-out;
+  }
+}
